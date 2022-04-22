@@ -12,7 +12,7 @@ body {
   border: 2px solid cornflowerblue;
 }
 
-.wrapper {
+.rb-wrapper {
  display: flex;
  justify-content: center;
  align-items: center;
@@ -21,7 +21,7 @@ body {
 }
 
 
-.container {
+.rb-container {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: crimson;
+  color: black;
   border: 2px solid cornflowerblue;
 }
 
@@ -63,4 +63,9 @@ body {
 
 .clicked {
   background-color: lightblue;
+}
+
+
+.bomb {
+  background-color: brown;
 }
