@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.debug {
+  border: 2px solid cornflowerblue;
+}
+
+.wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:#191970;
+ height: 100vh;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 500px;
+  height: 500px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: crimson;
+  border: 2px solid cornflowerblue;
+}
+
+.square.square100 {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.square.square81 {
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.square.square49 {
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+
+.square span {
+  display: none;
+}
+
+.square.clicked span {
+  display: block;
+}
+
+.clicked {
+  background-color: lightblue;
+}
